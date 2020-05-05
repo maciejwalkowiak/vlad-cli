@@ -1,7 +1,7 @@
 {
   "name": "vlad-cli",
   "description": "Vlad Mihalcea blog search CLI",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Maciej Walkowiak @maciejwalkowiak",
   "bin": {
     "vlad": "./bin/run"
