@@ -1,0 +1,40 @@
+{
+  "name": "vlad",
+  "description": "Vlad Mihalcea blog search CLI",
+  "version": "0.0.0",
+  "author": "Maciej Walkowiak @maciejwalkowiak",
+  "bin": {
+    "vlad": "./bin/run"
+  },
+  "bugs": "https://github.com/maciejwalkowiak/vlad/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/maciejwalkowiak/vlad",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "vlad"
+  },
+  "repository": "maciejwalkowiak/vlad",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
