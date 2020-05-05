@@ -15,8 +15,8 @@ Vlad Mihalcea blog search CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g vlad
-$ vlad COMMAND
+$ npm install -g vlad-cli
+$ vlad how to map json
 running command...
 $ vlad (-v|--version|version)
 vlad/0.0.0 darwin-x64 node-v13.7.0
@@ -25,8 +25,5 @@ USAGE
   $ vlad COMMAND
 ...
 ```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
 
 <!-- commandsstop -->

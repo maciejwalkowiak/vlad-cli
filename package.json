@@ -1,5 +1,5 @@
 {
-  "name": "vlad",
+  "name": "vlad-cli",
   "description": "Vlad Mihalcea blog search CLI",
   "version": "0.0.0",
   "author": "Maciej Walkowiak @maciejwalkowiak",
@@ -10,7 +10,10 @@
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@oclif/plugin-help": "^2"
+    "@oclif/plugin-help": "^2",
+    "inquirer": "^7.1.0",
+    "node-fetch": "^2.6.0",
+    "opn": "^6.0.0"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1"
