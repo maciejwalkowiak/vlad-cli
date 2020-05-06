@@ -6,7 +6,7 @@
   "bin": {
     "vlad": "./bin/run"
   },
-  "bugs": "https://github.com/maciejwalkowiak/vlad/issues",
+  "bugs": "https://github.com/maciejwalkowiak/vlad-cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -25,7 +25,7 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/maciejwalkowiak/vlad",
+  "homepage": "https://github.com/maciejwalkowiak/vlad-cli",
   "keywords": [
     "oclif"
   ],
@@ -34,7 +34,7 @@
   "oclif": {
     "bin": "vlad"
   },
-  "repository": "maciejwalkowiak/vlad",
+  "repository": "maciejwalkowiak/vlad-cli",
   "scripts": {
     "prepack": "oclif-dev readme",
     "test": "echo NO TESTS",
